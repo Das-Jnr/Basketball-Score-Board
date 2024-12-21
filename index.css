@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+}
+
+.container {
+    width: 450px;
+    height: auto;
+    
+    /* Align content */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    
+    /* Colour */
+    background-color: #1B244A;
+    
+    /* Margin & Padding */
+    margin: 20px;
+    padding: 20px;
+    
+    /* format */
+    border-radius: 10px;
+}
+
+.guest-board {
+     /* Align content */
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: space-around;
+    gap: 10px;
+    
+    /* Margin and Padding */
+    margin: 0px;
+    padding: 0px;
+    
+     /* colours */
+}
+
+#guest {
+ /* Align content */
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ 
+ /* Size and shape of bar*/
+ width: 149px;
+ height: auto;
+ 
+ /* colours */
+ color: #EEEEEE;
+ 
+ /* Font */
+ font-family: Verdana;
+ font-size: 40px;
+ 
+ /* Margin and Padding */
+ margin: 0;
+ padding: 0;  
+}
+
+
+.score-board {
+ /* Align content */
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ 
+ 
+ /* Size and shape of bar*/
+ width: 155px;
+ height: auto;
+ border-radius: 5px;
+ 
+ /* colours */
+ background-color: #080001;
+ color: #F94F6D;
+ 
+ /* Font */
+ font-family: Cursed Timer ULiL, sans-serif;
+ font-weight: 400px;
+ font-style: normal;
+ font-size: 90px;
+ 
+ /* Margin and Padding */
+ margin: 0;
+ padding: 0;
+}
+
+#button-container {
+     
+ /* Size and shape of bar*/
+ width: 155px;
+ height: auto;
+ 
+ /* Align content*/
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ 
+ /* Margin and Padding */
+ margin: 0;
+ padding: 0;
+    
+}
+
+
+#button-features {
+ 
+ /* Size and shape of bar*/
+ width: 45px;
+ height: 45px;
+ border-radius: 5px;
+  
+ /* Margin and Padding */
+ margin: 0;
+ padding: 0;
+ 
+  /* Font */
+ font-family: Cursed Timer ULiL, sans-serif;
+ color: #9AABD8;
+ /* transparent will remove the background color */
+ background-color: transparent;
+ /* font-weight: 400px; */
+ font: bold;
+ /* font-size: 90px; */
+    
+}
